@@ -3,7 +3,7 @@ package main;
 import interfaces.DroneAutopilot;
 import control.AppManager;
 
-public class MainLoopLegacy {
+public class MainLoop {
 
 	public static void main(String[] args) {
 
