@@ -62,7 +62,7 @@ moment there is no functionality to toggle between multiple jars, and thus it wi
 
 # Control Drone using Phone
 
-In this version of the project, it will be able to control the drone using your Android phone. To do so, you first need to do several things:  
+In this version of the project, it will be able to control the drone using your Android phone with the help of an UDP server that is hosted within the autopilot. To do so, you first need to do several things:  
 * Install the Android app on the Google play-store (https://play.google.com/store/apps/details?id=com.broekxruben.teamsaffier)  
 * Use your phone as a mobile hotspot, this is needed to provide a fluent connection between your phone and the drone  
 * Configure your PC's IP address within the app (open the terminal on your PC and type _ipconfig_ and search for IPv4 or IPv6)  
