@@ -11,7 +11,7 @@ named _DroneSimulation-Part1_ (https://github.com/RubenPants/DroneSimulation-Par
 
 To run the project, and thus open the testbed's Graphical User Interface, go to 'Virtual Testbed' -> 'src' -> 'main' -> 'MainLoop' and run 'MainLoop' as a 
 Java Application. When starting the project, two windows will pop up: the virtual testbed itself and a window where you can toggle the option to control the
-drone using your phone (Android only). A description on how to connect your phone with the drone is given in a later subsection (__Control Drone using Phone__).
+drone using your phone (Android only). A description on how to connect your phone with the drone is given in a later subsection (_Control Drone using Phone_).
 
 
 
@@ -65,8 +65,8 @@ moment there is no functionality to toggle between multiple jars, and thus it wi
 In this version of the project, it will be able to control the drone using your Android phone. To do so, you first need to do several things:  
 * Install the Android app on the Google play-store (https://play.google.com/store/apps/details?id=com.broekxruben.teamsaffier)  
 * Use your phone as a mobile hotspot, this is needed to provide a fluent connection between your phone and the drone  
-* Configure your PC's IP address within the app (open the terminal on your PC and type __ipconfig__ and search for IPv4 or IPv6)  
-* Run the Java Application (MainLoop) and toggle the popup window to active (__toggle connection with phone__)  
+* Configure your PC's IP address within the app (open the terminal on your PC and type _ipconfig_ and search for IPv4 or IPv6)  
+* Run the Java Application (MainLoop) and toggle the popup window to active (_toggle connection with phone_)  
 * Start the app: go to 'Run' -> 'Start Simulation'
 
 If everything went right, the drone should stay steady on the ground. If the drone starts to slowly take of (and does not respond to your actions), you did not
@@ -77,5 +77,7 @@ successfully connect your phone with the drone.
 # History of the Project
 
 This project is the seccond part of a larger whole:
-* _Part1_ - Fly in the testbed. Link: https://github.com/RubenPants/DroneSimulation-Part1  
-* _Part2_ - Take off, fly, land and taxi in the testbed. Control drone with phone. Link: https://github.com/RubenPants/DroneSimulation-Part2  
+* __Part1__ - Fly in the testbed.  
+Link: https://github.com/RubenPants/DroneSimulation-Part1  
+* __Part2__ - Take off, fly, land and taxi in the testbed. Control drone with phone.  
+Link: https://github.com/RubenPants/DroneSimulation-Part2  
