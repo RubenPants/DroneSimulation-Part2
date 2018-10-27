@@ -1,0 +1,8 @@
+#!/bin/bash
+BASEDIR=$(dirname "$0")
+cd "$BASEDIR"
+cd ..
+
+gcc -I"/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers" -framework OpenCL -shared -o src/autopilot_library/libautopilot.dylib jni/vision/vision.c jni/planning/planning.c jni/autopilot_library.c jni/algorithms/simplify.c jni/data/vector.c jni/algorithms/convex.c
+gcc -I"/System/Library/Frameworks/JavaVM.framework/Versions/A/Headers" -m64 -mtune=generic -shared -o src/autopilot_library/autopilotLibrary.dll jni/autopilot_library.c jni/vision/vision.c jni/planning/planning.c jni/algorithms/simplify.c jni/data/vector.c jni/algorithms/convex.c
+exit 0
