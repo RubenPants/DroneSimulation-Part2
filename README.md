@@ -5,6 +5,10 @@ A simulation of a drone which will fly in a three dimensional virtual testbed. A
 objective of the drone is to collect all cubes as fast as possible (no order specified). This project will build further upon the project conventionally
 named _DroneSimulation-Part1_ (https://github.com/RubenPants/DroneSimulation-Part1).
 
+<p align="center">
+  <img src="https://github.com/RubenPants/DroneSimulation-Part1/blob/master/Virtual-testbed.gif"/>
+</p>
+
 
 
 # Run the Project
